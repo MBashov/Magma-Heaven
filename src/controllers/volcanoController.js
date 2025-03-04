@@ -30,7 +30,7 @@ volcanoController.get('/:volcanoId/details', async (req, res) => {
         const isCreator = volcano.owner.equals(userId);
         const hasVote = volcano.voteList.includes(userId);
 
-        res.render('volcano/details', { volcano, isCreator, hasVote });
+        res.render('volcano/details', { volcano, userId, isCreator, hasVote });
     } catch (err) {
         res.setError(getErrorMessage(err));
         res.redirect('/404');
