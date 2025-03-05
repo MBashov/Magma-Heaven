@@ -50,7 +50,7 @@ The **Magma-Heaven** app includes the following key features:
 
 - **User Authentication**: Register, log in, and access personalized content.
 - **Authorization**: Certain actions (such as editing and deleting posts) are restricted to the post's author.
-- **Volcano Management**: Users can add, edit, and delete volcano posts. They can also vote for volcanoes they're interested in, provided they aren’t the post’s author.
+- **Volcano Management**: Users can add, edit, and delete volcano posts. They can also vote for volcanoes they're interested in, (only if they aren’t the post’s author).
 - **Profile Page**: View and manage the volcanoes you've created or voted for.
 
 ---
